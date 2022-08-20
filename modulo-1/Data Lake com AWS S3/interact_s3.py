@@ -21,6 +21,7 @@ df = pd.read_csv("dimensao_mesorregioes_mg-1.csv", sep=";")
 print(df)
 
 # Upload de arquivo para AWS S3 bucket usando boto3
-s3_client.upload_file(r'C:\Users\sobm9\Mbruno\bootcamps\bootcamp-edc-igti\modulo-1\mockaroo_funcionario.csv',
-                      'datalake-mbruno5-igti-edc',
-                      'data/mockaroo_funcionario.csv')
+s3_client.upload_file(r'C:\Users\sobm9\Mbruno\bootcamps\bootcamp-edc-igti\modulo-1\Data Lake com AWS S3\mockaroo_funcionario.csv',
+                       'datalake-mbruno5-igti-edc',
+                       'data/mockaroo_funcionario.csv')
+                    
