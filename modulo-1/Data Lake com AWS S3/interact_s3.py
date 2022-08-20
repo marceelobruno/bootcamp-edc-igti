@@ -1,7 +1,7 @@
 import boto3
 import pandas as pd
 
-# Script para testar conexão boto3 com AWS S3 que retorna todos os nomes dos buckets existentes
+# Script para validar conexão boto3 com AWS S3 que retornará todos os nomes dos buckets existentes
 # s3 = boto3.resource('s3')
 
 # for bucket in s3.buckets.all():
